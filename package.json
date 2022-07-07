@@ -1,6 +1,6 @@
 {
-  "name": "reactstrap",
-  "version": "9.1.1",
+  "name": "kitche",
+  "version": "0.0.1",
   "description": "React Bootstrap components",
   "type": "module",
   "source": "src/index.js",
@@ -21,7 +21,7 @@
     "start": "start-storybook -s ./static -p 8080",
     "build:docs": "build-storybook -s ./static -o ./build",
     "build": "microbundle --generateTypes false --jsx React.createElement --compress false",
-    "version": "node_modules/.bin/conventional-changelog -i CHANGELOG.md -o CHANGELOG.md -p angular && git add -A CHANGELOG.md",
+    "version": "conventional-changelog -i CHANGELOG.md -o CHANGELOG.md -p angular && git add -A CHANGELOG.md",
     "prepublishOnly": "npm run build",
     "create-release": "npm run cover && sh ./scripts/release",
     "lint": "eslint src",
@@ -186,7 +186,7 @@
     "Natthakit Susanthitanon (https://github.com/nsmag)",
     "Patrick Impey <patimpey@gmail.com> (https://github.com/patrickus)",
     "Per Svensson <per.svensson.se@gmail.com> (https://github.com/Psvensso)",
-    "Piotr Błażejewicz (Peter Blazejewicz) (https://github.com/peterblazejewicz)",
+    "Piotr Błażejewicz (Peter Blazejewicz)",
     "Peter Xu <px.peter.xu@gmail.com> (https://github.com/pxpeterxu)",
     "Rich Hong <hong.rich@gmail.com> (https://github.com/hongrich)",
     "Ronny Ewanek <ronny.ewanek@gmail.com> (https://github.com/RockinRonE)",
@@ -237,7 +237,7 @@
     "Jeff-NZ (https://github.com/jeff-nz)",
     "lslv1243 (https://github.com/lslv1243)",
     "Denys Nykula (https://github.com/nykula)",
-    "npm-to-cdn-bot (by Forbes Lindesay) (https://github.com/npmcdn-to-unpkg-bot)",
+    "npm-to-cdn-bot (by Forbes Lindesay)",
     "philipstanislaus (https://github.com/philipstanislaus)",
     "polmauri (https://github.com/polmauri)",
     "reactstrapbot (https://github.com/reactstrapbot)",
@@ -268,7 +268,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@babel/plugin-proposal-export-default-from": "^7.12.1",
+    "@babel/plugin-proposal-export-default-from": "^7.14.5",
     "@babel/plugin-proposal-export-namespace-from": "^7.12.1",
     "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
     "@babel/preset-react": "^7.12.10",
@@ -306,7 +306,8 @@
     "react-router": "^3.2.1",
     "react-scripts": "2.1.1",
     "react-test-renderer": "^16.3.2",
-    "webpack": "^4.43.0",
-    "typescript": "^4.0.3"
-  }
+    "typescript": "^4.0.3",
+    "webpack": "^4.43.0"
+  },
+  "author": "codeche"
 }
